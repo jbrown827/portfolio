@@ -16,6 +16,13 @@
       crossorigin="anonymous"
     />
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -62,57 +69,75 @@
 
     <!-- Portfolio -->
     <div id="portfolio" class="container-fluid">
-      <div class="container">
+      <div class="container port-style">
         <h2>Portfolio</h2>
         <hr />
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <div class="card mb-3" style="max-width: 540px">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                  <img src="..." class="card-img" alt="..." />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text"
-                      >This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.</p
-                    >
-                    <p class="card-text"
-                      ><small class="text-muted"
-                        >Last updated 3 mins ago</small
-                      ></p
-                    >
-                  </div>
-                </div>
+        <div class="row row-cols-1 row-cols-md-2 style-row">
+          <div class="col">
+            <!-- Card One -->
+            <div class="card card-one h-100">
+              <img
+                src="./images/schedule-planner-screenshot.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Schedule Planner</h5>
+                <p class="card-text"
+                  >A calender application that allows users to save events for
+                  each hour of the day. The current day is displayed a top the
+                  screen, as the time blocks are colored coded based on the time
+                  of day (past,present, or future).</p
+                >
+                <a
+                  href="https://jbrown827.github.io/schedule-planner/"
+                  class="btn card-btn"
+                  target="_blank"
+                  >Live App</a
+                >
+                <a
+                  href="https://github.com/jbrown827/schedule-planner"
+                  class="btn card-btn"
+                  target="_blank"
+                  >Repository</a
+                >
               </div>
             </div>
+            <!-- End Card One -->
           </div>
-          <div class="col-12 col-md-6">
-            <div class="card mb-3" style="max-width: 540px">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                  <img src="..." class="card-img" alt="..." />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text"
-                      >This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.</p
-                    >
-                    <p class="card-text"
-                      ><small class="text-muted"
-                        >Last updated 3 mins ago</small
-                      ></p
-                    >
-                  </div>
-                </div>
+
+          <div class="col">
+            <!-- Card Two -->
+            <div class="card card-two h-100">
+              <img
+                src="./images/tatalus-screenshot.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project Tantalus</h5>
+                <p class="card-text"
+                  >Project Tantalus is a resource to to search for recipes or
+                  restaurants. Restaurants can be searched by city and cuisine
+                  type. Recipes can be searched based on main ingredient, meal
+                  type, and cuisine type. Search parameters use both textfields
+                  and dropdown menus.</p
+                >
+                <a
+                  href="https://spenrad.github.io/Project-Tantalus/"
+                  class="btn card-btn"
+                  target="_blank"
+                  >Live App</a
+                >
+                <a
+                  href="https://github.com/jbrown827/Project-Tantalus"
+                  class="btn card-btn"
+                  target="_blank"
+                  >Repository</a
+                >
               </div>
             </div>
+            <!-- End Card Two -->
           </div>
         </div>
       </div>

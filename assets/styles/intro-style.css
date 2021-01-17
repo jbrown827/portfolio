@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: white;
+}
+
+a:hover {
+  background: white;
+  color: black;
+}
+
+/* *  Content Style  * */
+
+.intro-container {
+  background: black;
+  background-image: url(/images/creole-queen.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  color: rgb(241, 237, 237);
+  margin: auto;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 50px;
+  margin: 15px 0;
+}
+
+.intro p {
+  font-size: 18px;
+}
+
+.main-btn {
+  color: rgb(241, 237, 237);
+  border: 1px solid rgb(241, 237, 237);
+  padding-left: 30px;
+  padding-right: 30px;
+  /* margin: 10px; */
+  margin-top: 10px;
+}

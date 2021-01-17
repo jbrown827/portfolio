@@ -1,36 +1,38 @@
+/* *  Base Style  * */
+
 * {
   margin: 0;
   padding: 0;
 }
 
-/***********************************************/
-.jumbotron {
-  background: black;
-  background-image: url(/images/creole-queen.jpg);
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
   color: white;
 }
 
-.jumbotron h1 {
-  margin: 30px 0;
-  font-size: 60px;
+a:hover,
+a:active {
+  color: white;
 }
 
-.intro {
-  padding-top: 150px;
-}
+/* *  Navigation Style  * */
 
 .navbar {
-  background: black;
-  opacity: 0.5;
+  background: #1e2d38;
+  opacity: 1;
 }
 
 .navbar-nav a {
-  color: white;
-  margin: 0 20px;
-  margin-top: 20px;
+  color: #f78458;
+  margin: 0 30px;
 }
 
 .navbar-toggler {
@@ -45,8 +47,8 @@
 }
 
 .nav-link:hover {
-  font-weight: 600;
-  border-bottom: 1px solid white;
+  /* font-size: 17px; */
+  color: white;
 }
 
 #header .btn {
@@ -56,7 +58,11 @@
   font-size: 16px;
 }
 
-/****************************************************************/
+/* * About Section * */
+
+#about {
+  color: rgb(54, 54, 54);
+}
 
 .container {
   background-color: rgb(235, 231, 231);
@@ -64,13 +70,15 @@
   margin-bottom: 20px;
 }
 
-.container-fluid h2 {
+.container-fluid h2,
+.port-style h2 {
   text-align: center;
   margin-bottom: 5px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
-.container-fluid hr {
+.container-fluid hr,
+.port-style hr {
   background: rgb(214, 211, 211);
   margin: 0 200px;
 }
@@ -89,6 +97,10 @@
   float: left;
 }
 
+.style-col p {
+  font-size: 15px;
+}
+
 .links {
   text-align: center;
   margin: auto;
@@ -99,7 +111,34 @@
 }
 
 .links span i {
-  color: black;
+  color: #1e2d38;
 }
 
 /** Porfolio Section **/
+#portfolio {
+  color: rgb(54, 54, 54);
+}
+
+.port-style {
+  padding-bottom: 30px;
+}
+
+.port-style .col {
+  margin-bottom: 20px;
+}
+
+.card-one,
+.card-two {
+  text-align: center;
+}
+
+.card-btn {
+  background: #1e2d38;
+  color: white;
+  margin: 10px;
+}
+
+.card-btn:hover {
+  color: white;
+  font-size: 17px;
+}
