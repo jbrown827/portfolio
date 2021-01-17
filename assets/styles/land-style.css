@@ -26,13 +26,15 @@ a:hover {
 
 .intro-container {
   background: black;
-  background-image: url(/images/creole-queen.jpg);
+  background-image: url(/creole-queen.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px;
+  /* color: white; */
 }
 
 .intro {
