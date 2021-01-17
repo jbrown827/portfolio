@@ -26,7 +26,7 @@ a:hover {
 
 .intro-container {
   background: black;
-  background-image: url(./images/creole-queen.jpg);
+  background-image: url(../images/creole-queen.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
