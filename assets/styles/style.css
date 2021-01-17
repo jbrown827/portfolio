@@ -47,7 +47,6 @@ a:active {
 }
 
 .nav-link:hover {
-  /* font-size: 17px; */
   color: white;
 }
 
@@ -67,7 +66,6 @@ a:active {
 .container {
   background-color: rgb(235, 231, 231);
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .container-fluid h2,
@@ -120,7 +118,8 @@ a:active {
 }
 
 .port-style {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+  /* padding-bottom: 10px; */
 }
 
 .port-style .col {
@@ -133,11 +132,30 @@ a:active {
 
 .card-btn {
   background: #1e2d38;
-  color: white;
+  color: #f78458;
   margin: 10px;
 }
 
+.card-btn:link,
+.card-btn:visited {
+  color: #f78458;
+}
+
 .card-btn:hover {
-  color: white;
   font-size: 17px;
+}
+
+/* *  Footer Style  * */
+
+.footer-div {
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.footer-div span {
+  font-size: 15px;
+  color: white;
+  margin: 20px;
 }
