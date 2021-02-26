@@ -25,10 +25,10 @@ a:hover {
 /* *  Content Style  * */
 
 .intro-container {
-  background: black;
+  /* background: black;
   background-image: url(/images/creole-queen.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   height: 100vh;
   display: flex;
   justify-content: center;
